@@ -23,6 +23,7 @@ import { NotificationsModule } from './modules/notifications/notifications.modul
 import { TransactionsModule } from './modules/transactions/transactions.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { CategoriesModule } from './modules/categories/categories.module';
+import { RecurringExpensesModule } from './modules/recurring-expenses/recurring-expenses.module';
 import { APP_GUARD } from '@nestjs/core';
 
 @Module({
@@ -84,6 +85,7 @@ import { APP_GUARD } from '@nestjs/core';
     ReceiptsModule,
     AuthModule,
     CategoriesModule,
+    RecurringExpensesModule,
   ],
   controllers: [],
   providers: [
